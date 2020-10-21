@@ -10,5 +10,6 @@ public class ToyTest {
 		ApplicationContext context = new AnnotationConfigApplicationContext("com.snapbizz.core");
 		Toy toy = context.getBean("toy", Toy.class);
 		System.out.println(toy);
+		System.out.println("gitdemo");
 	}
 }
